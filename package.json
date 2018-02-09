@@ -1,0 +1,28 @@
+{
+  "name": "utoken",
+  "version": "1.0.0",
+  "description": "Micro access token middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "access",
+    "token",
+    "middleware"
+  ],
+  "author": "Per Liedman <per@liedman.net>",
+  "homepage": "https://github.com/perliedman/utoken",
+  "repository": "git@github.com:perliedman/utoken.git",
+  "license": "ISC",
+  "peerDependencies": {
+    "micro": "^9.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "micro": "^9.1.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "test-listen": "^1.1.0"
+  }
+}
